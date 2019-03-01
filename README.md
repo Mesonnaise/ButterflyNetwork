@@ -9,7 +9,7 @@ The implementation comes with a Visual Studio solution for validation testing.
 
 ## Performance results
 
-The AVX2 implementation sees a performance increase of about 12% over the native implementation on a AMD Threadripper 1950x. 
+The AVX2 implementation sees a performance increase of about 8x over the native implementation on a AMD Threadripper 1950x. 
 
 ## Reference
 
