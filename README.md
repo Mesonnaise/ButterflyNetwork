@@ -1,15 +1,8 @@
 # ButterflyNetwork
 
-
-## Introduction
-
 The AVX2 implementation are designed to be replacements for the BMI2 instructions pdep and pext when used in memory scans. The functions come in two variants 64x4, and 256. The 64bits by 4 are used as a direct substitute for pdep and pext. The 256bit variant is better suited for compaction/expansion of bit arrays and other succinct structures. 
 
 The implementation comes with a Visual Studio solution for validation testing. 
-
-## Performance results
-
-The AVX2 implementation sees a performance increase of about 8x over the native implementation on a AMD Threadripper 1950x. 
 
 ## Reference
 
